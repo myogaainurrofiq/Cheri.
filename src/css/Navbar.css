@@ -1,0 +1,47 @@
+.body2 {
+    font-family: 'Abel', sans-serif;
+    padding: 0px 0px 5px 0px;
+  }
+  
+header {
+    background-color: #322653;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Add space between items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  nav a {
+    color: #e2e2e2;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+  }
+
+  .teks1 {
+    color: #FFD2D7;
+    font-size: 50px;
+    font-family: 'Gruppo', cursive;
+    margin-left: 20px;
+  }
+
+  .teks2 {
+    display: flex;
+  justify-content: flex-end; /* Align teks2 to the right */
+  align-items: center;
+  margin-right: 100px;
+  }
+
+  nav a.active {
+    font-weight: bold; /* Add your desired styling for the active link */
+    /* You can customize this further based on your design */
+    color: #FFD2D7;
+  }

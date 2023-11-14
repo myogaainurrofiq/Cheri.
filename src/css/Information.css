@@ -1,0 +1,68 @@
+/* Informasi.css */
+
+.page-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Ubah margin menjadi 0 */
+  }
+  
+  .text-container1 {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 160px;
+    margin-top: 70px;
+  }
+  
+  .image-container1 {
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Ubah margin menjadi 0 */
+  }
+  
+  .c {
+    font-family: 'Gruppo', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 30px 0 0 0;
+  }
+  
+  .container-x {
+    margin-top: 30px;
+  }
+  
+  .container-n {
+    margin-top: 150px;
+  }
+  
+  .x {
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+    padding: 0px 0 0 0;
+    color: #000;
+  }
+  
+  .web-button {
+    background-color: #322653;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 140px;
+  }
+  
+  .web-button:hover {
+    background-color: #8062D6;
+  }
+  

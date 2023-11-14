@@ -1,0 +1,40 @@
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-us-image {
+    padding: 0 0 0 50px;
+    margin-top: 50px;
+    width: 100%; /* Adjust the width to your preference */
+    max-width: 650px; /* Set a max-width to prevent the image from becoming too large */
+    height: auto;
+    justify-content: center;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 20px; /* Add padding to the text container */
+    text-align: left;
+  }
+  
+  .y {
+    font-family: 'Gruppo', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0 0 0;
+  }
+
+  .t {
+    padding: 30px 0 0 0;
+    font-size: 25px;
+    text-align: justify;   
+    margin-right: 150px; 
+  }

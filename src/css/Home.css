@@ -1,0 +1,125 @@
+  
+  section {
+    margin: 20px 0;
+  }
+  
+ /* styles.css */
+
+ .card1container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ 
+ .card1 {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  /* margin: 10px; Menghapus margin */
+  transition: transform 0.2s;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+ }
+ 
+ .card1 img {
+  max-width: 100%;
+  height: auto;
+ }
+ 
+ .horizontal {
+  flex-direction: row;
+ }
+  
+  .card1 a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+  }
+  
+  .card1 img {
+    max-width: 80%;
+    max-height: 80%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    justify-content: center; /* Menengahkan secara horizontal */
+    align-items: center; /* Menengahkan secara vertikal */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card1 div {
+    font-size: 18px;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: 59%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow:2px 2px 3px #333;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+button:first-child {
+    left: 10px;
+}
+
+button:last-child {
+    right: 10px;
+}
+
+h2 {
+  margin-top: 100px;
+  font-family: 'Gruppo', cursive;
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+  color: #302f2f;
+}
